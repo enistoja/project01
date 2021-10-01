@@ -1,0 +1,180 @@
+@font-face {
+    font-family: BalsamiqSans;
+    src: url("../fonts/BalsamiqSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: Gluten;
+    src: url("../fonts/Gluten-Regular.ttf");
+}
+
+@font-face {
+    font-family: Lobster;
+    src: url("../fonts/Lobster-Regular.ttf");
+}
+
+.aImg {
+    border-width:.5rem;
+    border-style: solid;
+    border-color:  rgb(93, 106, 216);
+    transition-property: border-color;
+    transition-duration: 0.5s;
+    
+}
+
+.aImg:hover, .aImg:focus{
+    border-color: rgb(94, 34, 81);
+    
+}
+
+/*hover code from September CSS exercise for IAT-339*/
+.box-style
+{
+    display: inline-block;
+    padding: 0.5rem;
+    color: black;
+    background-color: rgb(156, 80, 156); 
+    text-decoration: none;
+    transition-property: background-color; 
+    transition-duration: 0.5s;
+}
+
+.box-style:hover, .box-style:focus{
+    background-color: rgb(109, 44, 109);
+    color: white;
+}
+
+.column {
+	height: 25rem; 
+	border: .5rem solid rgb(94, 34, 81);
+}
+
+.column p {
+	padding: 0.5rem; 
+}
+
+.column a {
+    padding: 0.5rem;
+}
+
+.column:nth-of-type(even) {
+	background-color: rgb(151, 66, 151);
+	/*color: #FFF;*/
+}
+
+.column:nth-of-type(odd) {
+	background-color: rgb(156, 80, 156);
+}
+
+.content{
+    padding: .3rem;
+    margin-bottom: .5rem;
+    background-color:hotpink
+}
+
+.form-style{
+    display: inline-block;
+    padding: 0.5rem;
+    color: black;
+    background-color: rgb(109, 44, 109);
+    text-decoration: none;
+    transition-property: background-color; 
+    transition-duration: 0.5s;
+  }
+  
+.form-style:hover, .form-style:focus{
+    background-color: rgb(156, 80, 156);
+    color:black;
+}
+
+.grid {
+    display: grid;
+}
+
+
+.nav {
+    display: inline-block;
+    padding: 0.5rem;
+    text-decoration: none;
+    transition-property: background-color; 
+    transition-duration: 0.5s;
+    margin-bottom: .3rem;
+
+    font-family: 'Gluten', sans-serif;
+    font-size: 2.5rem;
+    color:rgb(151, 66, 151);
+    background-color:lightskyblue;
+}
+
+.nav:hover, .nav:focus {
+    background-color: rgb(165, 50, 150);
+    color: lightskyblue;
+}
+
+
+
+/*@media (min-width: 40rem)
+{
+    .column{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}*/
+
+@media (min-width: 60rem)
+{
+    .threeColumn{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+a {
+    color: rgb(93, 106, 216);
+    text-decoration: none;
+    transition-property: background-color; 
+    transition-duration: 0.5s;
+    background-color:rgba(0,0,0,0);
+}
+
+a:hover, a:focus {
+    background-color: rgb(94, 34, 81);
+}
+
+body {
+    background-color:rgb(151, 66, 151);
+}
+
+h1 {
+    font-family: 'Gluten', sans-serif;
+    font-size: 3rem;
+}
+
+h2 {
+    font-family:'Lobster', arial;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: 'Gluten', sans-serif;
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-family: 'Gluten', sans-serif;
+    font-size: 1.5rem;
+}
+
+p {
+    font-family:'BalsamiqSans', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+
+    max-width: 60rem;
+}
+
+
